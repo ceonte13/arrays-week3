@@ -140,10 +140,27 @@ for (let i = 0; i < names.length; i++) {
             ///*write a function called willbuyDrink that takes a boolean isHotoutside ,and a number moneyinPocket, and returns true if it is hot outside and if moneyinPocket is greater than 10.50.
                  
              
+                function willbuyDrink(isHotoutside,moneyinPocket){
+                  if(isHotoutside==true&&moneyinPocket>10.50){
+
+                  } return true;
 
 
+               } return false;
+                   
                    
 
 
 
-             ////* create a function of your own that solves a problem   
+             ////* create a function of your own that solves a problem     write a function that take two parameter and combine them and get the total sum
+
+
+             function addNumbers(num1, num2) {
+              return num1 + num2;
+
+                                            
+
+
+
+
+
